@@ -1,0 +1,12 @@
+{
+  "investments": [
+    {"bank": "Post Office", "instrument": "Public Provident Fund (PPF)", "rate": 7.1},
+    {"bank": "SBI", "instrument": "Fixed Deposit (1 Year)", "rate": 6.8},
+    {"bank": "HDFC", "instrument": "Senior Citizen FD", "rate": 7.5}
+  ],
+  "loans": [
+    {"bank": "SBI", "instrument": "Home Loan", "rate": 8.5},
+    {"bank": "PNB", "instrument": "Personal Loan", "rate": 10.4},
+    {"bank": "Bank of Baroda", "instrument": "Car Loan", "rate": 8.9}
+  ]
+}
