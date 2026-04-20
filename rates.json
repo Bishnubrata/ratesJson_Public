@@ -1,12 +1,26 @@
 {
   "investments": [
-    {"bank": "Post Office", "instrument": "Public Provident Fund (PPF)", "rate": 7.2},
-    {"bank": "SBI", "instrument": "Fixed Deposit (1 Year)", "rate": 6.8},
-    {"bank": "HDFC", "instrument": "Senior Citizen FD", "rate": 7.5}
+    {
+      "bank": "SBI",
+      "instrument": "Fixed Deposit",
+      "rate": 6.8,
+      "tenures": [
+        {"label": "1 Year (6.8%)", "years": 1.0, "rate": 6.8},
+        {"label": "3 Years (7.0%)", "years": 3.0, "rate": 7.0},
+        {"label": "5 Years (7.2%)", "years": 5.0, "rate": 7.2}
+      ]
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Public Provident Fund (PPF)",
+      "rate": 7.1
+    }
   ],
   "loans": [
-    {"bank": "SBI", "instrument": "Home Loan", "rate": 8.5},
-    {"bank": "PNB", "instrument": "Personal Loan", "rate": 10.4},
-    {"bank": "Bank of Baroda", "instrument": "Car Loan", "rate": 8.9}
+    {
+      "bank": "HDFC",
+      "instrument": "Home Loan",
+      "rate": 8.5
+    }
   ]
 }
