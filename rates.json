@@ -2,25 +2,96 @@
   "investments": [
     {
       "bank": "SBI",
-      "instrument": "Fixed Deposit",
-      "rate": 6.8,
+      "instrument": "Fixed Deposit (Regular)",
+      "rate": 6.25,
       "tenures": [
-        {"label": "1 Year (6.8%)", "years": 1.0, "rate": 6.8},
-        {"label": "3 Years (7.0%)", "years": 3.0, "rate": 7.0},
-        {"label": "5 Years (7.2%)", "years": 5.0, "rate": 7.2}
+        {"label": "1 Year to <2 Years", "years": 1.0, "rate": 6.25},
+        {"label": "2 Years to <3 Years", "years": 2.0, "rate": 6.40},
+        {"label": "3 Years to <5 Years", "years": 3.0, "rate": 6.30},
+        {"label": "5 Years to 10 Years", "years": 5.0, "rate": 6.05}
+      ]
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Amrit Vrishti Scheme",
+      "rate": 6.60,
+      "tenures": [
+        {"label": "444 Days (General)", "years": 1.21, "rate": 6.60},
+        {"label": "444 Days (Senior Citizen)", "years": 1.21, "rate": 7.10}
       ]
     },
     {
       "bank": "Post Office",
       "instrument": "Public Provident Fund (PPF)",
       "rate": 7.1
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Sukanya Samriddhi Account (SSA)",
+      "rate": 8.2
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Senior Citizen Savings Scheme (SCSS)",
+      "rate": 8.2
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Monthly Income Scheme (MIS)",
+      "rate": 7.4
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "National Savings Certificate (NSC)",
+      "rate": 7.7
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Kisan Vikas Patra (KVP)",
+      "rate": 7.5
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Time Deposit (TD)",
+      "rate": 6.9,
+      "tenures": [
+        {"label": "1 Year", "years": 1.0, "rate": 6.9},
+        {"label": "2 Years", "years": 2.0, "rate": 7.0},
+        {"label": "3 Years", "years": 3.0, "rate": 7.1},
+        {"label": "5 Years", "years": 5.0, "rate": 7.5}
+      ]
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Recurring Deposit (RD)",
+      "rate": 6.7
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Mahila Samman Savings Certificate",
+      "rate": 7.5
     }
   ],
   "loans": [
     {
-      "bank": "HDFC",
-      "instrument": "Home Loan",
-      "rate": 8.5
+      "bank": "SBI",
+      "instrument": "Home Loan (Term Loan)",
+      "rate": 7.50
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Home Loan Maxgain (OD)",
+      "rate": 7.75
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Top-Up Loan",
+      "rate": 8.00
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Loan Against Property",
+      "rate": 9.20
     }
   ]
 }
