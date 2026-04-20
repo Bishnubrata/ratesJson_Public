@@ -1,6 +1,6 @@
 {
   "investments": [
-    {"bank": "Post Office", "instrument": "Public Provident Fund (PPF)", "rate": 7.1},
+    {"bank": "Post Office", "instrument": "Public Provident Fund (PPF)", "rate": 7.2},
     {"bank": "SBI", "instrument": "Fixed Deposit (1 Year)", "rate": 6.8},
     {"bank": "HDFC", "instrument": "Senior Citizen FD", "rate": 7.5}
   ],
