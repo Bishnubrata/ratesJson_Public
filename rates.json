@@ -32,21 +32,88 @@
     },
     {
       "bank": "Post Office",
+      "instrument": "Monthly Income Scheme (MIS)",
+      "rate": 7.4,
+      "fixed_years": 5.0
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Mahila Samman Savings Certificate",
+      "rate": 7.5,
+      "fixed_years": 2.0
+    },
+    {
+      "bank": "Post Office",
+      "instrument": "Recurring Deposit (RD)",
+      "rate": 6.7,
+      "fixed_years": 5.0
+    },
+    {
+      "bank": "Post Office",
       "instrument": "Time Deposit (TD)",
       "tenures": [
-        {"label": "1 Year (6.9%)", "years": 1.0},
-        {"label": "2 Years (7.0%)", "years": 2.0},
-        {"label": "3 Years (7.1%)", "years": 3.0},
-        {"label": "5 Years (7.5%)", "years": 5.0}
+        {"label": "1 Year (6.90%)", "years": 1.0},
+        {"label": "2 Years (7.00%)", "years": 2.0},
+        {"label": "3 Years (7.10%)", "years": 3.0},
+        {"label": "5 Years (7.50%)", "years": 5.0}
+      ]
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Fixed Deposit (Regular)",
+      "tenures": [
+        {"label": "1 Year to <2 Years (6.80%)", "years": 1.0},
+        {"label": "2 Years to <3 Years (7.00%)", "years": 2.0},
+        {"label": "3 Years to <5 Years (6.75%)", "years": 3.0},
+        {"label": "5 Years to 10 Years (6.50%)", "years": 5.0}
+      ]
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Amrit Kalash Scheme (400 Days)",
+      "tenures": [
+        {"label": "Regular (7.10%)", "years": 1.09},
+        {"label": "Senior Citizen (7.60%)", "years": 1.09}
+      ]
+    },
+    {
+      "bank": "PNB",
+      "instrument": "Fixed Deposit (Regular)",
+      "tenures": [
+        {"label": "1 Year (6.75%)", "years": 1.0},
+        {"label": "400 Days (7.25%)", "years": 1.09},
+        {"label": "2 Years to 3 Years (7.00%)", "years": 2.0},
+        {"label": "3 Years to 5 Years (6.50%)", "years": 3.0}
+      ]
+    },
+    {
+      "bank": "Bank of Baroda",
+      "instrument": "Fixed Deposit (Regular)",
+      "tenures": [
+        {"label": "1 Year (6.85%)", "years": 1.0},
+        {"label": "399 Days - Tiranga Plus (7.15%)", "years": 1.09},
+        {"label": "2 Years to 3 Years (7.25%)", "years": 2.0},
+        {"label": "3 Years to 5 Years (6.50%)", "years": 3.0}
+      ]
+    },
+    {
+      "bank": "Canara Bank",
+      "instrument": "Fixed Deposit (Regular)",
+      "tenures": [
+        {"label": "1 Year (6.85%)", "years": 1.0},
+        {"label": "444 Days (7.25%)", "years": 1.21},
+        {"label": "2 Years to 3 Years (6.85%)", "years": 2.0},
+        {"label": "3 Years to 5 Years (6.80%)", "years": 3.0}
       ]
     },
     {
       "bank": "HDFC Bank",
       "instrument": "Fixed Deposit (Regular)",
       "tenures": [
-        {"label": "1 Year (6.60%)", "years": 1.0},
+        {"label": "1 Year to <15 Months (6.60%)", "years": 1.0},
         {"label": "15 Months to <18 Months (7.10%)", "years": 1.25},
         {"label": "18 Months to <21 Months (7.25%)", "years": 1.5},
+        {"label": "2 Years to <3 Years (7.00%)", "years": 2.0},
         {"label": "3 Years to <5 Years (7.00%)", "years": 3.0}
       ]
     },
@@ -87,13 +154,65 @@
         {"label": "1 Year 6 Months to <2 Years (7.75%)", "years": 1.5},
         {"label": "2 Years to <3 Years (7.25%)", "years": 2.0}
       ]
+    },
+    {
+      "bank": "AU Small Finance Bank",
+      "instrument": "Fixed Deposit (Regular)",
+      "tenures": [
+        {"label": "12 Months (7.25%)", "years": 1.0},
+        {"label": "18 Months (7.50%)", "years": 1.5},
+        {"label": "24 Months to 36 Months (7.75%)", "years": 2.0}
+      ]
+    },
+    {
+      "bank": "Equitas Small Finance Bank",
+      "instrument": "Fixed Deposit (Regular)",
+      "tenures": [
+        {"label": "1 Year (8.20%)", "years": 1.0},
+        {"label": "444 Days (8.50%)", "years": 1.21},
+        {"label": "2 Years to 3 Years (8.00%)", "years": 2.0}
+      ]
+    },
+    {
+      "bank": "Ujjivan Small Finance Bank",
+      "instrument": "Fixed Deposit (Regular)",
+      "tenures": [
+        {"label": "12 Months (8.25%)", "years": 1.0},
+        {"label": "15 Months (8.50%)", "years": 1.25},
+        {"label": "24 Months (7.50%)", "years": 2.0}
+      ]
     }
   ],
   "loans": [
     {
+      "bank": "SBI",
+      "instrument": "Home Loan",
+      "rate": 8.50
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Auto Loan",
+      "rate": 8.65
+    },
+    {
+      "bank": "SBI",
+      "instrument": "Personal Loan",
+      "rate": 11.15
+    },
+    {
       "bank": "HDFC Bank",
       "instrument": "Home Loan",
       "rate": 8.35
+    },
+    {
+      "bank": "HDFC Bank",
+      "instrument": "Auto Loan",
+      "rate": 8.75
+    },
+    {
+      "bank": "HDFC Bank",
+      "instrument": "Personal Loan",
+      "rate": 10.50
     },
     {
       "bank": "ICICI Bank",
@@ -101,14 +220,54 @@
       "rate": 8.40
     },
     {
+      "bank": "ICICI Bank",
+      "instrument": "Auto Loan",
+      "rate": 8.80
+    },
+    {
+      "bank": "ICICI Bank",
+      "instrument": "Personal Loan",
+      "rate": 10.65
+    },
+    {
       "bank": "Axis Bank",
       "instrument": "Home Loan",
       "rate": 8.75
     },
     {
+      "bank": "Axis Bank",
+      "instrument": "Auto Loan",
+      "rate": 9.10
+    },
+    {
       "bank": "Kotak Mahindra Bank",
       "instrument": "Home Loan",
       "rate": 8.70
+    },
+    {
+      "bank": "Kotak Mahindra Bank",
+      "instrument": "Personal Loan",
+      "rate": 10.99
+    },
+    {
+      "bank": "PNB",
+      "instrument": "Home Loan",
+      "rate": 8.40
+    },
+    {
+      "bank": "Bank of Baroda",
+      "instrument": "Home Loan",
+      "rate": 8.40
+    },
+    {
+      "bank": "AU Small Finance Bank",
+      "instrument": "Home Loan",
+      "rate": 9.50
+    },
+    {
+      "bank": "AU Small Finance Bank",
+      "instrument": "Vehicle Loan",
+      "rate": 10.50
     }
   ]
 }
