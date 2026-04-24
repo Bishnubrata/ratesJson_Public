@@ -103,6 +103,14 @@
       ]
     },
     {
+      "bank": "SBI",
+      "instrument": "Amrit Vrishti Scheme (444 Days)",
+      "tenures": [
+        {"label": "Regular (6.60%)", "years": 1.22},
+        {"label": "Senior Citizen (7.10%)", "years": 1.22}
+      ]
+    },
+    {
       "bank": "HDFC Bank",
       "instrument": "Fixed Deposit (Regular)",
       "tenures": [
