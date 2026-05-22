@@ -59,7 +59,7 @@
     {
       "bank": "Post Office",
       "instrument": "Time Deposit (TD)",
-      "compounding_frequency": 4,
+      "compounding_frequency": 0,
       "tenures": [
         {"label": "1 Year (6.90%)", "years": 1.0},
         {"label": "2 Years (7.00%)", "years": 2.0},
